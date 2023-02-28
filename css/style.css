@@ -1,0 +1,213 @@
+/* Root налаштування */
+:root {
+    --navy-blue: #2E2F42; 
+    --slate: #434455;
+    --hover-ocean: #404BBF;
+    --iris: #4D5AE5;
+    --cloud: #F4F4FD;
+}
+ol, ul {
+    list-style: none;
+  }
+  
+a {
+    text-decoration: none;
+    font-style: normal;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    background-color: #fff;
+}
+
+/* Studio! */
+
+/* Header */
+/* Header logo */
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--iris);
+    text-transform: uppercase;
+}
+
+.logo-text {
+    color: var(--slate);
+}
+.logo-second-text {
+    color: var(--cloud);
+}
+/* /Header logo */
+/* Header Menu */
+.menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.menu-item {
+    color: var(--navy-blue);
+}
+.menu-item:hover,
+.menu-item:focus {
+    color: var(--hover-ocean);
+}
+/* /Header Menu */
+/* Header address */
+.address {
+}
+.address-item {
+    color: var(--slate);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.address-item:hover,
+.address-item:focus {
+    color: var(--hover-ocean);
+}
+/* /Header address */
+/* /Header */
+
+/* Main */
+/* Hero section */
+.hero-section {
+    background-color: var(--navy-blue) ;
+}
+.hero-text {
+    color: #fff;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    
+}
+.hero-button {
+    background-color: var(--iris);
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;  
+    letter-spacing: 0.04em;
+    font-family: inherit;
+    cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--hover-ocean);
+}
+/* /Hero section */
+
+/* Section text */
+.info {
+}
+.info-main{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--navy-blue);
+}
+.info-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+/* /Section text */
+
+/* Section about working */
+.work {
+}
+.work-main {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+/* /Section about working */
+
+
+/* Section Team */
+.team {
+    background: var(--cloud);
+}
+.team-main {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+.team-block {
+    background-color: #fff;
+}
+.about-team {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+.team-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+/* /Section Team */
+/* /Main */
+
+/* footer */
+.footer {
+    background-color: var(--navy-blue);
+}
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+
+/* Portfolio */
+.filter {
+}
+.filter-list {
+
+}
+.filter-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+    border: 1px solid rgba(231, 233, 252, 1);
+    cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+    background-color: var(--hover-ocean);
+    color: #fff;
+}
+.portfolio-info {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+.portfolio-about {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
