@@ -339,10 +339,23 @@ body {
 
 /* Portfolio */
 .filter {
+    margin-top: 96px;
 }
-.filter-list {
+
+.container-filter {
 
 }
+
+.filter-list {
+    display: flex;
+    justify-content: center;
+
+}
+
+.filter-list .item + .item {
+    margin-left: 24px;
+}
+
 .filter-button {
     font-family: inherit;
     font-weight: 500;
@@ -353,12 +366,64 @@ body {
     color: #4D5AE5;
     border: 1px solid rgba(231, 233, 252, 1);
     cursor: pointer;
+    padding: 12px 24px;
+
 }
 .filter-button:hover,
 .filter-button:focus {
     background-color: var(--hover-ocean);
     color: #fff;
 }
+
+.list-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0;
+    gap: 24px;
+    
+    margin-top: 72px;
+    margin-bottom: 120px;
+
+
+    
+    
+}
+
+.item-con {
+    flex-basis: calc((100% - 48px) / 3);
+    border: 1px solid #E7E9FC;
+
+    
+}
+
+
+
+.img-content {
+    max-width: 100% ;
+    height: auto;
+
+}
+
+.description {
+    margin-left: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+}
+
+.portfolio-info {
+    margin-bottom: 8px;
+
+}
+
+
+.portfolio-about {
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+
 .portfolio-info {
     font-weight: 500;
     font-size: 20px;
